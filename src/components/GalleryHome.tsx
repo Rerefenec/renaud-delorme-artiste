@@ -38,11 +38,17 @@ const galleryItems: GalleryItem[] = [
     description: "La structure du fragment...",
     lien: "/sérigraphies",
   },
-   {
-    title: "Sérigraphies",
-    image: "/sérigraphies/la-collectionneuse-d'art/collectionneuse 1.jpg",
+  //  {
+  //   title: "Sérigraphies",
+  //   image: "/sérigraphies/la-collectionneuse-d'art/collectionneuse 1.jpg",
+  //   description: "La structure du fragment...",
+  //   lien: "/sérigraphies",
+  // },
+  {
+    title: "Vanitées",
+    image: "/vanitée/F.jpg",
     description: "La structure du fragment...",
-    lien: "/sérigraphies",
+    lien: "/vanitees",
   },
 ];
 
