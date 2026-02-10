@@ -26,7 +26,7 @@ const normalize = (text: string) =>
 const galleryItems = Object.entries(seriesData).flatMap(([serie, works]) =>
   works.map((work, index) => {
     const miniImage = work.image
-      .replace("/1969-1994-Cloisonnes/", "/1969-1994-Cloisonnes-mini/")
+      .replace("/vanitées/", "/vanitées-mini/")
       .replace("/1995-2020-Tondos/", "/1995-2020-Tondos-mini/")
       .replace("/2021-2025-Baroques/", "/2021-2025-Baroques-mini/")
       .replace("/2021-2025-Geometriques/", "/2021-2025-Geometriques-mini/")
@@ -55,7 +55,7 @@ const styleToLien: Record<string, string | null> = {
   Géométrique: "geometrique",
   Baroques: "baroques",
   Tondos: "tondos",
-  Cloisonnés: "cloisonnes",
+  Cloisonnés: "vanitees",
   "Toutes les œuvres": null,
 };
 

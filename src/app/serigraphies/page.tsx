@@ -2,7 +2,7 @@
 
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
-import UnderGallery from "@/components/UnderGallery";
+import SerigraphieGallery from "@/components/SerigraphieGallery";
 
 export default function HomePage() {
   return (
@@ -16,7 +16,7 @@ export default function HomePage() {
       </div>
       {/* Fondo de la galería en blanco para cubrir progresivamente el Hero */}
       <div className="relative pt-26 pb-1 bg-black ">
-        <UnderGallery />
+        <SerigraphieGallery />
       </div>
     </main>
     <Footer />

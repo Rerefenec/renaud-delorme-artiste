@@ -10,7 +10,7 @@ import { usePathname } from "next/navigation";
 
 
 // 🔹 Clé de série pour le diaporama
-const SERIES_KEY = "cloisonnes";
+const SERIES_KEY = "vanitees";
 
 // 🎯 2. Utiliser les données importées et les adapter pour les miniatures
 // Cette étape crée le tableau 'works' utilisé dans la grille avec les chemins des miniatures.
@@ -19,10 +19,10 @@ const works: Work[] = seriesData[SERIES_KEY].map((work, i) => ({
     // On remplace le chemin de l'image (qui est la full size dans seriesData)
     // par le chemin de la miniature pour optimiser le chargement de la grille.
     // NOTE: i+1 est utilisé ici pour reconstruire le nom de fichier de la miniature
-    image: `/1969-1994-Cloisonnes-mini/pierre-arnould-artiste-cloisonnes-${i + 1}.webp`,
+    image: `/vanitee-mini/vanitee-mini-${i + 1}.webp`,
 }));
 
-export default function CloisonnesClient() {
+export default function VaniteesClient() {
       const pathname = usePathname();
     
     const [failedImages, setFailedImages] = useState<number[]>([]);
@@ -86,7 +86,7 @@ export default function CloisonnesClient() {
             {/* 🎯 HERO : Placé en dehors du conteneur de transition pour rester visible immédiatement */}
             <Hero /> 
 
- {pathname === "/cloisonnes" && (
+ {pathname === "/vanitees" && (
   <div
     className="
       relative 

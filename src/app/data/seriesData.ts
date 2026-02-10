@@ -11,224 +11,70 @@ export const seriesData: Record<string, Work[]> = {
   // =======================================================
   // CLOISONNÉS (1969-1994) : 27 œuvres
   // =======================================================
-  cloisonnes: [
+  vanitees: [
     // 🎨 EXEMPLES DÉTAILLÉS (Cloisonnés 1 à 4)
     {
-      title: " Jungle Mystique",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-1.jpg`,
+      title: " detail",
+      image: `/vanitee/vanitee-1.jpg`,
       
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
-      lien: "cloisonnes",
+      lien: "vanitees",
     },
     {
       title: "Entrée du Labyrinthe",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-2.jpg`,
+      image: `/vanitee/vanitee-2.jpg`,
       
       description: "Relief, résine/enduit, peintures métalliques sur bois 60x80 cm",
       year: "1982",
-      lien: "cloisonnes",
+      lien: "vanitees",
     },
     {
       title: "Guerrier Géométrique",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-3.jpg`,
+      image: `/vanitee/vanitee-3.jpg`,
       
       description: "Technique mixte en relief, finition martelée 50x75 cm",
       year: "1985",
-      lien: "cloisonnes",
+      lien: "vanitees",
     },
     {
       title: "L'Archétype",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-4.jpg`,
+      image: `/vanitee/vanitee-4.jpg`,
       
       description: "Terre texturée, pigments et feuilles de métal",
       year: "1986",
-      lien: "cloisonnes",
+      lien: "vanitees",
     },
     {
       title: "L'Éclatement Central",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-5.jpg`,
+      image: `/vanitee/vanitee-5.jpg`,
       
       description: "Technique mixte sur panneau 80x60 cm",
       year: "1986",
-      lien: "cloisonnes",
+      lien: "vanitees",
     },
     {
       title: "Le Dédale Tribal",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-6.jpg`,
+      image: `/vanitee/vanitee-6.jpg`,
       
       description: "Pigments or et bleu nuit sur bois 90x65 cm",
       year: "1986",
-      lien: "cloisonnes",
+      lien: "vanitees",
     },
     {
       title: "Formes de la Métamorphose",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-7.jpg`,
+      image: `/vanitee/vanitee-7.jpg`,
       
       description: "Relief pigmenté sur panneau 50x75 cm",
       year: "1986",
-      lien: "cloisonnes",
+      lien: "vanitees",
     },
-    {
-      title: "Machine de Rêve Ocre",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-8.jpg`,
-      
-      description: "Pigments et feuilles de métal sur bois 45x45 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Profil du Guerrier Féminin",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-9.jpg`,
-      
-      description: "Relief cloisonné sur panneau 41x54 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Égérie Géométrique",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-10.jpg`,
-      
-      description: "Relief pigmenté sur panneau 41x54 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Jungle Cellulaire",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-11.jpg`,
-      
-      description: "Patine et reliefs sur bois 50x75 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Mosaïque Fractale Brune",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-12.jpg`,
-      
-      description: "Reliefs cloisonnés sur panneau 50x75 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Gardien Solaire",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-13.jpg`,
-      
-      description: "Technique mixte sur panneau 30x3 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Éruption Flora-Mécanique",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-14.jpg`,
-      
-      description: "Relief pigmenté et métal sur panneau 80x60 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Vol de l'Insecte Mécanique",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-15.jpg`,
-      
-      description: "Relief cloisonné sur panneau 40x65 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Reggane",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-16.jpg`,
-      
-      description: "Technique de mosaïque en relief sur panneau 50x75 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Tunnel de Lumière Dorée",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-17.jpg`,
-      
-      description: "Reliefs pigmentés et laqués 45x75 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Grande Cérémonie",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-18.jpg`,
-      
-      description: "Reliefs pigmentés sur panneau 40x65 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Coupe de Mitochondrie Bleue",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-19.jpg`,
-      
-      description: "Reliefs cloisonnés sur panneau 35x50 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Duel Solaire",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-20.jpg`,
-      
-      description: "Terre texturée, pigments et feuilles de métal 60x100 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Structure Subatomique Jaune",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-21.jpg`,
-      
-      description: "Reliefs laqués sur panneau 30x55 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Fragmentarium Végétal",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-22.jpg`,
-      
-      description: "Reliefs patinés sur panneau 90x180 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Trois Niveaux du Temps",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-23.jpg`,
-      
-      description: "Reliefs pigmentés sur panneau 45x90 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Urgence Rouge (The Red Emergency)",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-24.jpg`,
-      
-      description: "Reliefs pigmentés et encadrés 85x60 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Spectre du Totem",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-25.jpg`,
-      
-      description: "Reliefs et paillettes sur fond noir 40x80 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Essence de l'Oiseau-Soleil",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-26.jpg`,
-      
-      description: "Reliefs laqués sur panneau 110x30 cm",
-      year: "1986",
-      lien: "cloisonnes",
-    },
-    {
-      title: "Harmonie des Bulles (d'aprés le baiser de Klimt)",
-      image: `/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-27.jpg`,
-      
-      description: "Pigments et patine bronze sur panneau 80x30 cm.",
-      year: "1986",
-      lien: "cloisonnes",
-    },
+   
+   
+   
+    
+    
+    
   ],
 
   // =======================================================

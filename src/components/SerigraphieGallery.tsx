@@ -17,17 +17,23 @@ const galleryItems: GalleryItem[] = [
  
 
   {
-    title: "Cloisonnés",
+    title: "Brigitte Bardot",
     image:
-      "/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-11.jpg",
+      "/serigraphie/bb-mini/bb-1.webp",
     description: "La structure du fragment...",
-    lien: "/cloisonnes",
+    lien: "/bb",
   },
    {
-    title: "Géométriques",
-    image: "/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-13.jpg",
+    title: "Clint Eastwood",
+    image: "/serigraphie/clint-mini/clint-mini-1.webp",
     description: "La fusion conceptuelle...",
-    lien: "/geometrique",
+    lien: "/clint",
+  },
+     {
+    title: "Hotesse de l'air",
+    image: "/serigraphie/hotesse-de-l-air/hotesse 1.jpg",
+    description: "La fusion conceptuelle...",
+    lien: "/hotesse",
   },
 ];
 

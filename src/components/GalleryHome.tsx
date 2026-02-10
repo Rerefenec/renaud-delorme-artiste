@@ -34,9 +34,9 @@ const galleryItems: GalleryItem[] = [
   },
  {
     title: "Sérigraphies",
-    image: "/sérigraphies/la-collectionneuse-d'art/collectionneuse 1.jpg",
+    image: "/serigraphies/la-collectionneuse-d-art-mini/collectionneuse 1.webp",
     description: "La structure du fragment...",
-    lien: "/sérigraphies",
+    lien: "/serigraphies",
   },
   //  {
   //   title: "Sérigraphies",
@@ -46,7 +46,7 @@ const galleryItems: GalleryItem[] = [
   // },
   {
     title: "Vanitées",
-    image: "/vanitée/F.jpg",
+    image: "/vanitee-mini/F.jpg",
     description: "La structure du fragment...",
     lien: "/vanitees",
   },
