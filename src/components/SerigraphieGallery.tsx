@@ -18,23 +18,47 @@ const galleryItems: GalleryItem[] = [
 
   {
     title: "Brigitte Bardot",
-    image:
-      "/serigraphie/bb-mini/bb-1.webp",
+    image: "/serigraphies/bb-mini/bb-1.webp",
     description: "La structure du fragment...",
     lien: "/bb",
   },
    {
     title: "Clint Eastwood",
-    image: "/serigraphie/clint-mini/clint-mini-1.webp",
+    image: "/serigraphies/clint-mini/clint-mini-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/clint",
   },
      {
     title: "Hotesse de l'air",
-    image: "/serigraphie/hotesse-de-l-air/hotesse 1.jpg",
+    image: "/serigraphies/hotesse-de-l-air-mini/hotesse 1.webp",
     description: "La fusion conceptuelle...",
     lien: "/hotesse",
   },
+    {
+    title: "la collectionneuse d'art",
+    image: "/serigraphies/la-collectionneuse-d-art-mini/collectionneuse 1.webp",
+    description: "La fusion conceptuelle...",
+    lien: "/collectionneuse",
+  },
+     {
+    title: "Romy Schneider",
+    image: "/serigraphies/romy-mini/romy 1.webp",
+    description: "La fusion conceptuelle...",
+    lien: "/romy",
+  },
+       {
+    title: "Frida Pinto",
+    image: "/serigraphies/pinto-mini/pinto 1.webp",
+    description: "La fusion conceptuelle...",
+    lien: "/pinto",
+  },
+       {
+    title: "Marilyn Monroe",
+    image: "/serigraphies/marilyn-mini/marilyn 3.webp",
+    description: "La fusion conceptuelle...",
+    lien: "/marilyn",
+  },
+  
 ];
 
 export default function UnderGallery() {
@@ -110,7 +134,7 @@ export default function UnderGallery() {
                   alt={item.title}
                   width={400}
                   height={400}
-                  className={`object-contain rounded-xl w-full ${imageHeight} transition-transform duration-300 hover:scale-105`}
+                  className={`object-contain  w-full ${imageHeight} transition-transform duration-300 hover:scale-105`}
                 />
 
                 {/* Titre cliquable */}

@@ -46,7 +46,7 @@ const galleryItems: GalleryItem[] = [
   // },
   {
     title: "Vanitées",
-    image: "/vanitee-mini/F.jpg",
+    image: "/vanitee-mini/vanitee-mini-5.webp",
     description: "La structure du fragment...",
     lien: "/vanitees",
   },

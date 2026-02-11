@@ -27,9 +27,8 @@ const galleryItems = Object.entries(seriesData).flatMap(([serie, works]) =>
   works.map((work, index) => {
     const miniImage = work.image
       .replace("/vanitées/", "/vanitées-mini/")
-      .replace("/1995-2020-Tondos/", "/1995-2020-Tondos-mini/")
       .replace("/2021-2025-Baroques/", "/2021-2025-Baroques-mini/")
-      .replace("/2021-2025-Geometriques/", "/2021-2025-Geometriques-mini/")
+      .replace("/bb/", "/bb-mini/")
       .replace(".jpg", ".webp")
       .replace(".png", ".webp");
 
@@ -46,15 +45,15 @@ const galleryItems = Object.entries(seriesData).flatMap(([serie, works]) =>
 const styles = [
   "Géométrique",
   "Baroques",
-  "Tondos",
+  "bb",
   "Cloisonnés",
   "Toutes les œuvres",
 ];
 
 const styleToLien: Record<string, string | null> = {
-  Géométrique: "geometrique",
+  Géométrique: "bb",
   Baroques: "baroques",
-  Tondos: "tondos",
+  bb: "bb",
   Cloisonnés: "vanitees",
   "Toutes les œuvres": null,
 };

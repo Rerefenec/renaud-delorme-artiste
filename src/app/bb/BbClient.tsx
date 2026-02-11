@@ -7,28 +7,28 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { seriesData, type Work as SeriesWork } from "@/app/data/seriesData";
 
-const SERIES_KEY = "geometrique";
+const SERIES_KEY = "bb";
 
-// Use seriesData.geometrique as the canonical source of works, fall back to a
+// Use seriesData.bb as the canonical source of works, fall back to a
 // placeholder list if the data isn't present for some reason. Convert image
 // paths to the `-mini/*.webp` thumbnails used sitewide.
-const works: SeriesWork[] = ((seriesData.geometrique as SeriesWork[]) ||
-    Array.from({ length: 24 }, (_, i) => ({
-        title: `Geometrique ${i + 1}`,
-        style: "geometrique",
-        image: `/2021-2025-Geometriques-mini/pierre-arnould-artiste-geometrique-${i + 1}.webp`,
+const works: SeriesWork[] = ((seriesData.bb as SeriesWork[]) ||
+    Array.from({ length: 12 }, (_, i) => ({
+        title: `bb ${i + 1}`,
+        style: "bb",
+        image: `/bb-mini/renaud-delorme-artiste-bb-${i + 1}.webp`,
         description: "..",
         year: "",
-        lien: "geometrique",
+        lien: "bb",
     })))
     .map((w) => ({
         ...w,
         image: w.image
-            .replace("/2021-2025-Geometriques/", "/2021-2025-Geometriques-mini/")
+            .replace("/bb/", "/bb-mini/")
             .replace(/\.[a-zA-Z]+$/i, ".webp"),
     }));
 
-export default function GeometriqueClient() {
+export default function bbClient() {
       const pathname = usePathname();
    const [failedImages, setFailedImages] = useState<number[]>([]);
       const [isReady, setIsReady] = useState(false); // ✅ Commence à false (invisible)
@@ -91,7 +91,7 @@ export default function GeometriqueClient() {
               {/* 🎯 HERO : Placé en dehors du conteneur de transition pour rester visible immédiatement */}
               <Hero /> 
 
-                 {pathname === "/geometrique" && (
+                 {pathname === "/bb" && (
   <div
     className="
       relative 
