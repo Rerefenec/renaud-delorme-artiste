@@ -1,14 +1,14 @@
 // Clean, serverless-friendly sitemap route: no fs, no path, no disk access
 import { seriesData, type Work } from "@/app/data/seriesData";
 
-const BASE_URL = "https://pierre-arnould.vercel.app";
+const BASE_URL = "https://renaud-delorme-artiste-sage.vercel.app/";
 const BATCH_SIZE = 500;
 const BATCH_NUMBER = 1;
 
 async function getImages(): Promise<string[]> {
-  const works: Work[] = seriesData.baroques || [];
+  const works: Work[] = seriesData.bb || [];
   return works.map(w => {
-    const webp = w.image.replace("/2021-2025-Baroques/", "/2021-2025-Baroques-mini/").replace(/\.[a-zA-Z]+$/i, ".webp");
+    const webp = w.image.replace("/serigraphie/bb/", "/serigraphie/bb-mini/").replace(/\.[a-zA-Z]+$/i, ".webp");
     return `${BASE_URL}${webp}`;
   });
 }

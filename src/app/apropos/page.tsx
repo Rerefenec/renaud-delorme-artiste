@@ -205,7 +205,7 @@ export default function AproposPage() {
           </p>
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
-            L’artiste s’inspire également du style des tondos, ces tableaux de
+            L’artiste s’inspire également du style des clint, ces tableaux de
             forme ronde fréquents en Italie à la Renaissance. Mais ici, il
             travaille le bois, créant des bas-reliefs collés ou sculptés et
             n’hésitant pas à utiliser les matériaux les plus divers. Au final,

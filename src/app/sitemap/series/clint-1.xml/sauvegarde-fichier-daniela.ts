@@ -4,7 +4,7 @@ import path from "path";
 const BASE_URL = "https://pierre-arnould.vercel.app";
 const PUBLIC_DIR = path.join(process.cwd(), "public");
 const BATCH_SIZE = 500;
-const SERIE_NAME = "1995-2020-Tondos"; // Cambiar para cada serie
+const SERIE_NAME = "1995-2020-clint"; // Cambiar para cada serie
 const BATCH_NUMBER = 1;                    // Cambiar para cada batch
 
 async function getImages(dir: string): Promise<string[]> {

@@ -16,7 +16,7 @@ export interface GalleryItem {
 const galleryItems: GalleryItem[] = [
   {
     title: "Pochoirs",
-    image: "/pochoirs/rihanna 1.JPG",
+    image: "/pochoirs/renaud-delorme-artiste-rihana 3.JPG",
     description: "La fusion conceptuelle...",
     lien: "/pochoirs",
   },
@@ -97,7 +97,7 @@ export default function GalleryHome() {
           let orderClass = "";
           let colSpanClass = "";
 
-          if (item.title === "Tondos") {
+          if (item.title === "clint") {
             orderClass = "order-1 md:order-2";
             colSpanClass = "col-span-1 md:col-span-2";
           } else if (item.title === "Cloisonnés et Géométriques") {
@@ -108,9 +108,9 @@ export default function GalleryHome() {
             colSpanClass = "col-span-1 md:col-span-1";
           }
 
-          // Hauteur : égale sur mobile, Tondos plus grand dès md+
+          // Hauteur : égale sur mobile, clint plus grand dès md+
           const imageHeight =
-            item.title === "Tondos"
+            item.title === "clint"
               ? "h-80 sm:h-72 md:h-[28rem] lg:h-[32rem]"
               : "h-70 sm:h-72 md:h-80";
 

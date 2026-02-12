@@ -98,7 +98,7 @@ export const seriesData: Record<string, Work[]> = {
   ],
 
   // =======================================================
-  // BAROQUES (2021-2025) : 23 œuvres
+  // Clint : 23 œuvres
   // =======================================================
   // baroques: Array.from({ length: 23 }, (_, i) => ({
   //   title: `Baroques #${i + 1}`,
@@ -110,194 +110,106 @@ export const seriesData: Record<string, Work[]> = {
   //   year: "2025",
   //   lien: "baroques",
   // })),*
-  baroques: [
+  clint: [
  {
       title: "Arbre à palabres",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-1.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-1.jpg`,
       
       description: "technique mixte 20x30 cm",
       year: "1979",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Dédale",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-2.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-2.jpg`,
       
       description: "technique mixte 20x30 cm",
       year: "2011",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Port d'attaches",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-3.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-3.jpg`,
       
       description: "technique mixte 50x50 cm",
       year: "2024",
-      lien: "baroques",
+      lien: "clint",
     },
 
  {
       title: "Jeu de pistes",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-4.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-4.jpg`,
      
       description: "technique mixte 100x100 cm",
       year: "1979",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Composition Jaune",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-5.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-5.jpg`,
      
       description: "technique mixte 40x70 cm",
       year: "2002",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Imagine",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-6.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-6.jpg`,
      
       description: "technique mixte 30x40 cm",
       year: "2022",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Hyménoptère",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-7.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-7.jpg`,
       
       description: "technique mixte 40x44 cm",
       year: "2023",
-      lien: "baroques",
+      lien: "clint",
     },
     {
       title: "Rotor hydrique",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-8.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-8.jpg`,
       
       description: "technique mixte 30x38 cm",
       year: "2021",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Astronef",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-9.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-9.jpg`,
       
       description: "technique mixte 35x50 cm",
       year: "2023",
-      lien: "baroques",
+      lien: "clint",
     },
  
  {
       title: "Pico Pico",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-10.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-10.jpg`,
       
       description: "technique mixte 35x55 cm",
       year: "2023",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Récup' dorée",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-11.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-11.jpg`,
     
       description: "technique mixte 50x80 cm",
       year: "1998",
-      lien: "baroques",
+      lien: "clint",
     },
      {
       title: "Patterne beige",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-12.jpg`,
+      image: `/serigraphie/clint/renaud-delorme-artiste-clint-12.jpg`,
      
       description: "technique mixte 50x80 cm",
       year: "1999",
-      lien: "baroques",
+      lien: "clint",
     },
-     {
-      title: "Lépidoptère cornu",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-13.jpg`,
-      
-      description: "technique mixte 35x55 cm",
-      year: "2008",
-      lien: "baroques",
-    },
-     {
-      title: "Labyrinthe terra",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-14.jpg`,
-      
-      description: "technique mixte 45x70 cm",
-      year: "1990",
-      lien: "baroques",
-    },
-     {
-      title: "Dancing chisel",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-15.jpg`,
-      
-      description: "technique mixte 30x40 cm",
-      year: "2001",
-      lien: "baroques",
-    },
- {
-      title: "Masque sénoufo",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-16.jpg`,
-      
-      description: "technique mixte 40x60 cm",
-      year: "2013",
-      lien: "baroques",
-    },
-        {
-      title: "N'dédélé",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-17.jpg`,
      
-      description: "technique mixte 30x50 cm",
-      year: "2022",
-      lien: "baroques",
-    },
-     {
-      title: "Yoruba",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-18.jpg`,
-   
-      description: "technique mixte 35x70 cm",
-      year: "2090",
-      lien: "baroques",
-    },
- 
-     {
-      title: "Tribalisme",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-19.jpg`,
-      
-      description: "technique mixte 30x90 cm",
-      year: "2013",
-      lien: "baroques",
-    },
-     {
-      title: "Ashanti",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-20.jpg`,
-     
-      description: "technique mixte 35x70 cm",
-      year: "2024",
-      lien: "baroques",
-    },
-     {
-      title: "Primitivisme",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-21.jpg`,
-     
-      description: "technique mixte 30x80 cm",
-      year: "2023",
-      lien: "baroques",
-    },
-     {
-      title: "Aborigène",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-22.jpg`,
-    
-      description: "technique mixte 25x65 cm",
-      year: "2023",
-      lien: "baroques",
-    },
-     {
-      title: "Trigono spacial",
-      image: `/2021-2025-Baroques/pierre-arnould-artiste-baroque-23.jpg`,
-     
-      description: "technique mixte 100x90 cm",
-      year: "1989",
-      lien: "baroques",
-    },
   ],
 
   // =======================================================

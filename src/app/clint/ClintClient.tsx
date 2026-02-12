@@ -8,14 +8,14 @@ import { Work, seriesData } from "@/app/data/seriesData";
 import { usePathname } from "next/navigation";
 
 
-const SERIES_KEY = "tondos";
+const SERIES_KEY = "clint";
 
 const works: Work[] = seriesData[SERIES_KEY].map((work, i) => ({
     ...work,
-    image: `/1995-2020-Tondos-mini/pierre-arnould-artiste-tondo-${i + 1}.webp`,
+    image: `/serigraphies/clint-mini/renaud-delorme-artiste-clint-mini-${i + 1}.webp`,
 }));
 
-export default function TondosClient() {
+export default function ClintClient() {
   const pathname = usePathname();
 
  const [failedImages, setFailedImages] = useState<number[]>([]);
@@ -71,7 +71,7 @@ export default function TondosClient() {
         <div className="bg-black min-h-screen">
             <Hero />
    
-   {pathname === "/tondos" && (
+   {pathname === "/clint" && (
   <div
     className="
       relative 

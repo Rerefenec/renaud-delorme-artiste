@@ -21,8 +21,8 @@ export default function UnderHero() {
 
   // 🔹 Texte du titre
   let textHeader;
-  if (pathname === "/tondos") {
-    textHeader = <>Tondos</>;
+  if (pathname === "/clint") {
+    textHeader = <>clint</>;
   } else if (pathname === "/geometrique") {
     textHeader = <>Geometrique</>;
   } else if (pathname === "/cloisonnes") {

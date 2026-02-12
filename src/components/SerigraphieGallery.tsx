@@ -18,7 +18,7 @@ const galleryItems: GalleryItem[] = [
 
   {
     title: "Brigitte Bardot",
-    image: "/serigraphies/bb-mini/bb-1.webp",
+    image: "/serigraphies/bb-mini/renaud-delorme-artiste-bb-1.webp",
     description: "La structure du fragment...",
     lien: "/bb",
   },
@@ -115,9 +115,9 @@ export default function UnderGallery() {
             colSpanClass = "col-span-1 md:col-span-1";
           }
 
-          // Hauteur : égale sur mobile, Tondos plus grand dès md+
+          // Hauteur : égale sur mobile, clint plus grand dès md+
           const imageHeight =
-            item.title === "Tondos"
+            item.title === "clint"
               ? "h-80 sm:h-72 md:h-[28rem] lg:h-[32rem]"
               : "h-70 sm:h-72 md:h-80";
 

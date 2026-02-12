@@ -3,16 +3,17 @@
 // ⚠️ ASSUREZ-VOUS QUE CE CHEMIN EST CORRECT :
 import { seriesData } from '../../data/seriesData'; 
 
-const BASE_URL = "https://pierre-arnould.vercel.app";
+const BASE_URL = "https://renaud-delorme-artiste-sage.vercel.app";
 const BATCH_SIZE = 500;
 
 // Créez un MAP pour lier les clés de votre objet data aux noms de dossiers/URL complets.
 const KEY_TO_FOLDER_MAP: Record<string, string> = {
   // Clés de seriesData : Nom du Dossier/Série Complet pour l'URL
   'cloisonnes': "1969-1994-Cloisonnes",
-  'tondos': "1995-2020-Tondos",
+  'clint': "serigraphies/clint",
   'baroques': "2021-2025-Baroques",
   'geometrique': "2021-2025-Geometriques", 
+  'bb': "serigraphies/bb",
 };
 
 export async function GET() {

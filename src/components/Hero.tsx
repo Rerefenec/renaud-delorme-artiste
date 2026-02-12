@@ -10,7 +10,7 @@ export default function Hero() {
   // 🔹 Image selon la page
  let heroImage: string | null = "/details/bg.jpg";
 
-if (pathname === "/tondos") {
+if (pathname === "/clint") {
   heroImage = "/details/pierre-arnould-artist-tondo-detail-01.jpg";
 } else if (pathname === "/geometrique") {
   heroImage = "/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-16.jpg";
@@ -29,8 +29,8 @@ if (pathname === "/tondos") {
 
   // 🔹 Texte du titre
   let textHeader;
-  if (pathname === "/tondos") {
-    textHeader = <>Tondos</>;
+  if (pathname === "/clint") {
+    textHeader = <>clint</>;
   } else if (pathname === "/baroques") {
     textHeader = <>Baroques</>;
   } else if (pathname === "/cloisonnes") {

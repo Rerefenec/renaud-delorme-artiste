@@ -1,5 +1,5 @@
 export async function GET() {
-  const base = "https://pierre-arnould.vercel.app";
+  const base = "https://renaud-delorme-artiste-sage.vercel.app";
 
   const pages = [
     "",
@@ -10,8 +10,8 @@ export async function GET() {
     "/cloisonnes+geometriques",
     "/collections",
     "/diaporama",
-    "/geometrique",
-    "/tondos"
+    "/bb",
+    "/clint"
   ];
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -1,17 +1,17 @@
 import { seriesData, type Work } from "@/app/data/seriesData";
 
-const BASE_URL = "https://pierre-arnould.vercel.app";
+const BASE_URL = "https://renaud-delorme-artiste-sage.vercel.app";
 const BATCH_SIZE = 500;
-const SERIE_NAME = "1995-2020-Tondos"; // Cambiar para cada serie
+const SERIE_NAME = "clint"; // Cambiar para cada serie
 const BATCH_NUMBER = 1;                    // Cambiar para cada batch
 
 async function getImages(): Promise<string[]> {
   // Use the canonical seriesData to avoid scanning the public/ folder
-  const works: Work[] = seriesData.tondos || [];
+  const works: Work[] = seriesData.clint || [];
   return works.map(w => {
-    // convert e.g. /1995-2020-Tondos/pierre-arnould-artiste-tondo-1.jpg
-    // into /1995-2020-Tondos-mini/pierre-arnould-artiste-tondo-1.webp
-    const webp = w.image.replace("/1995-2020-Tondos/", "/1995-2020-Tondos-mini/").replace(/\.[a-zA-Z]+$/i, ".webp");
+    // convert e.g. /serigraphie/clint/pierre-arnould-artiste-tondo-1.jpg
+    // into /serigraphie/clint-mini/pierre-arnould-artiste-tondo-1.webp
+    const webp = w.image.replace("/serigraphie/clint/", "/serigraphie/clint-mini/").replace(/\.[a-zA-Z]+$/i, ".webp");
     return `${BASE_URL}${webp}`;
   });
 }
