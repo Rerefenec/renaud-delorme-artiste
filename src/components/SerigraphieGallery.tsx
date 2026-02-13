@@ -24,13 +24,13 @@ const galleryItems: GalleryItem[] = [
   },
    {
     title: "Clint Eastwood",
-    image: "/serigraphies/clint-mini/clint-mini-1.webp",
+    image: "/serigraphies/clint-mini/renaud-delorme-artiste-clint-mini-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/clint",
   },
      {
     title: "Hotesse de l'air",
-    image: "/serigraphies/hotesse-de-l-air-mini/hotesse 1.webp",
+    image: "/serigraphies/hotesse-de-l-air-mini/renaud-delorme-artiste-hotesse-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/hotesse",
   },

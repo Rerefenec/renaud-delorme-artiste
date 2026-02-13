@@ -16,7 +16,7 @@ export interface GalleryItem {
 const galleryItems: GalleryItem[] = [
   {
     title: "Pochoirs",
-    image: "/pochoirs/renaud-delorme-artiste-rihana 3.JPG",
+    image: "/pochoirs-mini/renaud-delorme-artiste-rihana-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/pochoirs",
   },
