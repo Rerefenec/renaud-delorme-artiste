@@ -14,7 +14,7 @@ interface Work {
   description: string;
 }
 
-const SERIES_KEY = "baroques";
+const SERIES_KEY = "pochoirs";
 // 🎯 2. Utiliser les données importées et les adapter pour les miniatures
 // Cette étape crée le tableau 'works' utilisé dans la grille avec les chemins des miniatures.
 const works: Work[] = seriesData[SERIES_KEY].map((work, i) => ({
@@ -22,10 +22,10 @@ const works: Work[] = seriesData[SERIES_KEY].map((work, i) => ({
     // On remplace le chemin de l'image (qui est la full size dans seriesData)
     // par le chemin de la miniature pour optimiser le chargement de la grille.
     // NOTE: i+1 est utilisé ici pour reconstruire le nom de fichier de la miniature
-    image: `/2021-2025-Baroques-mini/pierre-arnould-artiste-baroque-${i + 1}.webp`,
+    image: `/pochoirs-mini/renaud-delorme-artiste-rihana-${i + 1}.webp`,
 }));
 
-export default function BaroquesClient() {
+export default function PochoirsClient() {
   const pathname = usePathname();
   const [failedImages, setFailedImages] = useState<number[]>([]);
   const [isReady, setIsReady] = useState(false); // ✅ Commence à false (invisible)
@@ -87,7 +87,7 @@ export default function BaroquesClient() {
       {/* 🎯 HERO : Placé en dehors du conteneur de transition pour rester visible immédiatement */}
       <Hero />
 
-      {pathname === "/baroques" && (
+      {pathname === "/pochoirs" && (
         <div
           className="
       relative 

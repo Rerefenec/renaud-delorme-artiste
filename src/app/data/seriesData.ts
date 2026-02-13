@@ -8,6 +8,38 @@ export interface Work {
 }
 
 export const seriesData: Record<string, Work[]> = {
+
+    // =======================================================
+  // pochoirs : 6 images
+  // =======================================================
+  pochoirs: [
+
+    {
+      title: " detail",
+      image: `/pochoirs/renaud-delorme-artiste-rihana-1.jpg`,
+      
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "pochoirs",
+    },
+    {
+      title: "Entrée du Labyrinthe",
+      image: `/pochoirs/renaud-delorme-artiste-rihana-2.jpg`,
+      
+      description: "Relief, résine/enduit, peintures métalliques sur bois 60x80 cm",
+      year: "1982",
+      lien: "pochoirs",
+    },
+    {
+      title: "Guerrier Géométrique",
+      image: `/pochoirs/renaud-delorme-artiste-rihana-3.jpg`,
+      
+      description: "Technique mixte en relief, finition martelée 50x75 cm",
+      year: "1985",
+      lien: "pochoirs",
+    },
+   
+  ],
   // =======================================================
   // Vanitées : 6 images
   // =======================================================

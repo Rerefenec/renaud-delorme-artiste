@@ -5,7 +5,7 @@ export const metadata = {
     title: "Brigitte bardot — ",
     description: "Brigitte bardot (1969–1994) par Renaud Delorme — œuvres fines et détails dorés typiques de la période.",
     type: "website",
-    url: "https://pierre-arnould.vercel.app/cloisonnes",
+    url: "https://renaud-delorme-artiste-sage.vercel.app/bb",
     images: ["/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-1.jpg"],
   },
   twitter: {

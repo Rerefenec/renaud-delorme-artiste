@@ -1,22 +1,22 @@
 export const metadata = {
-  title: "Baroques — Pierre-Arnould — Artiste",
-  description: "Baroques (2021–2025) par Pierre Arnould — compositions riches et baroques explorant mouvement et couleur.",
+  title: "Pochoirs — Renaud-Delorme — Artiste",
+  description: "Pochoirs (2021–2025) par Pierre Arnould — compositions riches et Pochoirs explorant mouvement et couleur.",
   openGraph: {
-    title: "Baroques — Pierre Arnould",
-    description: "Baroques (2021–2025) par Pierre Arnould — compositions riches et baroques explorant mouvement et couleur.",
+    title: "Pochoirs — Pierre Arnould",
+    description: "Pochoirs (2021–2025) par Pierre Arnould — compositions riches et Pochoirs explorant mouvement et couleur.",
     type: "website",
-    url: "https://pierre-arnould.vercel.app/baroques",
-    images: ["/2021-2025-Baroques/pierre-arnould-artiste-baroque-1.jpg"],
+    url: "https://renaud-delorme-artiste-sage.vercel.app/pochoirs",
+    images: ["/pochoirs/renaud-delorme-artiste-rihana-1.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Baroques — Pierre Arnould",
-    description: "Baroques (2021–2025) par Pierre Arnould — compositions riches et baroques explorant mouvement et couleur.",
+    title: "Pochoirs — Pierre Arnould",
+    description: "Pochoirs (2021–2025) par Pierre Arnould — compositions riches et Pochoirs explorant mouvement et couleur.",
   },
 };
 
-import BaroquesClient from "./BaroquesClient";
+import PochoirsClient from "./PochoirsClient";
 
-export default function BaroquesPage() {
-  return <BaroquesClient />;
+export default function PochoirsPage() {
+  return <PochoirsClient />;
 }

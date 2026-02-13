@@ -14,6 +14,7 @@ const KEY_TO_FOLDER_MAP: Record<string, string> = {
   'baroques': "2021-2025-Baroques",
   'geometrique': "2021-2025-Geometriques", 
   'bb': "serigraphies/bb",
+  'pochoirs': "pochoirs",
 };
 
 export async function GET() {
