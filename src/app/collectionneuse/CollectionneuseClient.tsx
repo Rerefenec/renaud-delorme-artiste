@@ -8,14 +8,14 @@ import { Work, seriesData } from "@/app/data/seriesData";
 import { usePathname } from "next/navigation";
 
 
-const SERIES_KEY = "bb";
+const SERIES_KEY = "collectionneuse";
 
 const works: Work[] = seriesData[SERIES_KEY].map((work, i) => ({
     ...work,
-    image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-${i + 1}.webp`,
+    image: `/serigraphies/la-collectionneuse-d-art-mini/renaud-delorme-artiste-collectionneuse-${i + 1}.webp`,
 }));
 
-export default function Bblient() {
+export default function CollkectionneuseClient() {
   const pathname = usePathname();
 
  const [failedImages, setFailedImages] = useState<number[]>([]);
@@ -71,7 +71,7 @@ export default function Bblient() {
         <div className="bg-black min-h-screen">
             <Hero />
    
-   {pathname === "/bb" && (
+   {pathname === "/collectionneuse" && (
   <div
     className="
       relative 

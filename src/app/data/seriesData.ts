@@ -1,7 +1,7 @@
 export interface Work {
   title: string;
   image: string;
-  
+  slug: string;
   description: string;
   year: string;
   lien: string;
@@ -17,7 +17,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: " detail",
       image: `/pochoirs/renaud-delorme-artiste-rihana-1.jpg`,
-      
+      slug:"",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "pochoirs",
@@ -25,7 +25,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Entrée du Labyrinthe",
       image: `/pochoirs/renaud-delorme-artiste-rihana-2.jpg`,
-      
+      slug:"",
       description: "Relief, résine/enduit, peintures métalliques sur bois 60x80 cm",
       year: "1982",
       lien: "pochoirs",
@@ -33,7 +33,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Guerrier Géométrique",
       image: `/pochoirs/renaud-delorme-artiste-rihana-3.jpg`,
-      
+      slug:"",
       description: "Technique mixte en relief, finition martelée 50x75 cm",
       year: "1985",
       lien: "pochoirs",
@@ -48,7 +48,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: " detail",
       image: `/vanitee/vanitee-1.jpg`,
-      
+      slug:"",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "vanitees",
@@ -56,7 +56,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Entrée du Labyrinthe",
       image: `/vanitee/vanitee-2.jpg`,
-      
+      slug:"",
       description: "Relief, résine/enduit, peintures métalliques sur bois 60x80 cm",
       year: "1982",
       lien: "vanitees",
@@ -64,7 +64,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Guerrier Géométrique",
       image: `/vanitee/vanitee-3.jpg`,
-      
+      slug:"",
       description: "Technique mixte en relief, finition martelée 50x75 cm",
       year: "1985",
       lien: "vanitees",
@@ -72,7 +72,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "L'Archétype",
       image: `/vanitee/vanitee-4.jpg`,
-      
+      slug:"",
       description: "Terre texturée, pigments et feuilles de métal",
       year: "1986",
       lien: "vanitees",
@@ -80,7 +80,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "L'Éclatement Central",
       image: `/vanitee/vanitee-5.jpg`,
-      
+      slug:"",
       description: "Technique mixte sur panneau 80x60 cm",
       year: "1986",
       lien: "vanitees",
@@ -88,7 +88,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Le Dédale Tribal",
       image: `/vanitee/vanitee-6.jpg`,
-      
+      slug:"",
       description: "Pigments or et bleu nuit sur bois 90x65 cm",
       year: "1986",
       lien: "vanitees",
@@ -96,7 +96,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Formes de la Métamorphose",
       image: `/vanitee/vanitee-7.jpg`,
-      
+      slug:"",
       description: "Relief pigmenté sur panneau 50x75 cm",
       year: "1986",
       lien: "vanitees",
@@ -112,7 +112,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Paléo-Bolide",
       image: `/serigraphie/bb/renaud-delorme-artiste-bb-1.jpg`,
-      
+      slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2003",
       lien: "bb",
@@ -120,13 +120,91 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Engrenage Galactique",
       image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-2.webp`,
-      
+      slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-   
-  
+    {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-3.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+   {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-4.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-5.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-6.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-7.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-8.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-9.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-10.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-11.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
+     {
+      title: "Engrenage Galactique",
+      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-12.webp`,
+      slug:"",
+      description: "technique mixte Ø 90 cm",
+      year: "2004",
+      lien: "bb",
+    },
   ],
 
   // =======================================================
@@ -146,7 +224,7 @@ export const seriesData: Record<string, Work[]> = {
  {
       title: "Arbre à palabres",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-1.jpg`,
-      
+      slug:"",
       description: "technique mixte 20x30 cm",
       year: "1979",
       lien: "clint",
@@ -154,7 +232,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Dédale",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-2.jpg`,
-      
+      slug:"",
       description: "technique mixte 20x30 cm",
       year: "2011",
       lien: "clint",
@@ -162,7 +240,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Port d'attaches",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-3.jpg`,
-      
+      slug:"",
       description: "technique mixte 50x50 cm",
       year: "2024",
       lien: "clint",
@@ -171,7 +249,7 @@ export const seriesData: Record<string, Work[]> = {
  {
       title: "Jeu de pistes",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-4.jpg`,
-     
+     slug:"",
       description: "technique mixte 100x100 cm",
       year: "1979",
       lien: "clint",
@@ -179,7 +257,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Composition Jaune",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-5.jpg`,
-     
+     slug:"",
       description: "technique mixte 40x70 cm",
       year: "2002",
       lien: "clint",
@@ -187,7 +265,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Imagine",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-6.jpg`,
-     
+     slug:"",
       description: "technique mixte 30x40 cm",
       year: "2022",
       lien: "clint",
@@ -195,7 +273,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Hyménoptère",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-7.jpg`,
-      
+      slug:"",
       description: "technique mixte 40x44 cm",
       year: "2023",
       lien: "clint",
@@ -203,7 +281,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Rotor hydrique",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-8.jpg`,
-      
+      slug:"",
       description: "technique mixte 30x38 cm",
       year: "2021",
       lien: "clint",
@@ -211,7 +289,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Astronef",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-9.jpg`,
-      
+      slug:"",
       description: "technique mixte 35x50 cm",
       year: "2023",
       lien: "clint",
@@ -220,7 +298,7 @@ export const seriesData: Record<string, Work[]> = {
  {
       title: "Pico Pico",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-10.jpg`,
-      
+      slug:"",
       description: "technique mixte 35x55 cm",
       year: "2023",
       lien: "clint",
@@ -228,7 +306,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Récup' dorée",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-11.jpg`,
-    
+    slug:"",
       description: "technique mixte 50x80 cm",
       year: "1998",
       lien: "clint",
@@ -236,7 +314,7 @@ export const seriesData: Record<string, Work[]> = {
      {
       title: "Patterne beige",
       image: `/serigraphie/clint/renaud-delorme-artiste-clint-12.jpg`,
-     
+     slug:"",
       description: "technique mixte 50x80 cm",
       year: "1999",
       lien: "clint",
@@ -259,199 +337,186 @@ export const seriesData: Record<string, Work[]> = {
   //   year: "2025",
   //   lien: "geometrique",
   // })),
-  geometrique: [
+  hotesse: [
  {
       title: "Fraise vanille",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-1.jpg`,
-    
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-1.jpg`,
+    slug:"",
       description: "technique mixte 50x50 cm",
       year: "2025",
-      lien: "geometrique",
-    },
- {
-      title: "Germination",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-2.jpg`,
-    
-      description: "technique mixte 40x40 cm",
-      year: "1969",
-      lien: "geometrique",
-    },
- {
-      title: "Octo-ventilo",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-3.jpg`,
-     
-      description: "technique mixte 80x80 cm",
-      year: "1999",
-      lien: "geometrique",
+      lien: "hotesse",
     },
      {
-      title: "Byzance",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-4.jpg`,
-    
-      description: "technique mixte 80x80 cm",
-      year: "1999",
-      lien: "geometrique",
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-2.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
     },
- {
-      title: "Mayapolis",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-5.jpg`,
-     
-      description: "technique mixte 40x40 cm",
-      year: "2010",
-      lien: "geometrique",
-    },
- {
-      title: "Hokkaido zen",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-6.jpg`,
-    
-      description: "technique mixte 40x40 cm",
-      year: "1997",
-      lien: "geometrique",
+  {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-3.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
     },
      {
-      title: "Gotic",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-7.jpg`,
-      
-      description: "technique mixte 90x90 cm",
-      year: "1991",
-      lien: "geometrique",
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-4.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
     },
+     {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-5.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
+    },
+         {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-6.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
+    },
+         {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-7.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
+    },
+             {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-8.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
+    },
+             {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-9.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
+    },
+             {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-10.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
+    },
+             {
+      title: "Fraise vanille",
+      image: `/serigraphie/hotesse-de-l-air/renaud-delorme-artiste-hotesse-11.jpg`,
+    slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2025",
+      lien: "hotesse",
+    },
+  ],
 
-     {
-      title: "Zoulou",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-8.jpg`,
-    
-      description: "technique mixte 90x90 cm",
-      year: "1988",
-      lien: "geometrique",
+  collectionneuse: [
+
+    {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-1.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Forum",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-9.jpg`,
-     
-      description: "technique mixte 45x45 cm",
-      year: "2025",
-      lien: "geometrique",
+      {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-2.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Temple sacrificiel",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-10.jpg`,
-     
-      description: "technique mixte 45x45 cm",
-      year: "2025",
-      lien: "geometrique",
+        {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-3.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Bauhaus",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-11.jpg`,
-     
-      description: "technique mixte 35x35 cm",
-      year: "2020",
-      lien: "geometrique",
+        {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-4.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Epimedic",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-12.jpg`,
-     
-      description: "technique mixte 40x40 cm",
-      year: "2000",
-      lien: "geometrique",
+        {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-5.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Architectonic",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-13.jpg`,
-    
-      description: "technique mixte 40x50 cm",
-      year: "1967",
-      lien: "geometrique",
+        {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-6.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Pacific Maori ",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-14.jpg`,
-     
-      description: "technique mixte 50x55 cm",
-      year: "1992",
-      lien: "geometrique",
+       {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-7.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Message planette rouge",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-15.jpg`,
-     
-      description: "technique mixte 40x40 cm",
-      year: "1998",
-      lien: "geometrique",
+       {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-8.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Echiquier andalou",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-16.jpg`,
-     
-      description: "technique mixte 90x90 cm",
-      year: "1995",
-      lien: "geometrique",
+        {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-9.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Temple d'albatre",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-17.jpg`,
-    
-      description: "technique mixte 25x45 cm",
-      year: "2025",
-      lien: "geometrique",
+        {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-10.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
-     {
-      title: "Parcours-piège",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-18.jpg`,
-      
-      description: "technique mixte 30x30 cm",
-      year: "1990",
-      lien: "geometrique",
-    },
-     {
-      title: "Dans l'armurerie",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-19.jpg`,
-     
-      description: "technique mixte 35x35 cm",
-      year: "2001",
-      lien: "geometrique",
-    },
-     {
-      title: "Embarquement comète",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-20.jpg`,
-     
-      description: "technique mixte 80x80 cm",
-      year: "1996",
-      lien: "geometrique",
-    },
-     {
-      title: "Braille Tetris",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-21.jpg`,
-      
-      description: "technique mixte 35x45 cm",
-      year: "1992",
-      lien: "geometrique",
-    },
-     {
-      title: "Composition au carré",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-22.jpg`,
-      
-      description: "technique mixte 50x75 cm",
-      year: "1989",
-      lien: "geometrique",
-    },
-     {
-      title: "Composition au moule à gateau",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-23.jpg`,
-      
-      description: "technique mixte 40x60 cm",
-      year: "2020",
-      lien: "geometrique",
-    },
-     {
-      title: "Composition tressée",
-      image: `/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-24.jpg`,
-     
-      description: "technique mixte 40x75 cm",
-      year: "1978",
-      lien: "geometrique",
+        {
+      title: " detail",
+      image: `/serigraphie/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-11.jpg`,
+      slug:"",
+      description: "Relief pigmenté sur panneau, patine 50x75 cm",
+      year: "1980",
+      lien: "collectionneuse",
     },
   ],
 }

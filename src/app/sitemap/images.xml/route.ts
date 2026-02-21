@@ -15,6 +15,8 @@ const KEY_TO_FOLDER_MAP: Record<string, string> = {
   'geometrique': "2021-2025-Geometriques", 
   'bb': "serigraphies/bb",
   'pochoirs': "pochoirs",
+  'collectionneuse': "serigraphies/la-collectionneuse-d-art",
+  'hotesse': "serigraphie/hotesse-de-l-air",
 };
 
 export async function GET() {

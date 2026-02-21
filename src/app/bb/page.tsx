@@ -6,7 +6,7 @@ export const metadata = {
     description: "Brigitte bardot (1969–1994) par Renaud Delorme — œuvres fines et détails dorés typiques de la période.",
     type: "website",
     url: "https://renaud-delorme-artiste-sage.vercel.app/bb",
-    images: ["/1969-1994-Cloisonnes/pierre-arnould-artiste-cloisonnes-1.jpg"],
+    images: ["https://renaud-delorme-artiste-sage.vercel.app/serigraphies/bb/renaud-delorme-artiste-bb-1.jpg"],
   },
   twitter: {
     card: "summary_large_image",
@@ -17,7 +17,7 @@ export const metadata = {
 
 import BbClient from "./BbClient";
 
-export default function VaniteesPage() {
+export default function BbPage() {
   return <BbClient />;
 }
 
