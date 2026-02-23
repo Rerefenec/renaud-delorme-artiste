@@ -111,7 +111,7 @@ export const seriesData: Record<string, Work[]> = {
     // 🎨 EXEMPLES DÉTAILLÉS (Cloisonnés 1 à 4)
     {
       title: "Paléo-Bolide",
-      image: `/serigraphie/bb/renaud-delorme-artiste-bb-1.jpg`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-1.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2003",
@@ -119,7 +119,7 @@ export const seriesData: Record<string, Work[]> = {
     },
     {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-2.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-2.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -127,7 +127,7 @@ export const seriesData: Record<string, Work[]> = {
     },
     {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-3.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-3.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -135,7 +135,7 @@ export const seriesData: Record<string, Work[]> = {
     },
    {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-4.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-4.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -143,7 +143,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-5.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-5.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -151,7 +151,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-6.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-6.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -159,7 +159,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-7.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-7.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -167,7 +167,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-8.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-8.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -175,7 +175,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-9.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-9.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -183,7 +183,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-10.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-10.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -191,7 +191,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-11.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-11.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -199,7 +199,7 @@ export const seriesData: Record<string, Work[]> = {
     },
      {
       title: "Engrenage Galactique",
-      image: `/serigraphie/bb-mini/renaud-delorme-artiste-bb-12.webp`,
+      image: `/serigraphies/bb-mini/renaud-delorme-artiste-bb-12.webp`,
       slug:"",
       description: "technique mixte Ø 90 cm",
       year: "2004",
@@ -519,4 +519,94 @@ export const seriesData: Record<string, Work[]> = {
       lien: "collectionneuse",
     },
   ],
+
+    // =======================================================
+  //Marilyn : 10 œuvres
+  // =======================================================
+
+  marilyn: [
+ {
+      title: "Arbre à palabres",
+      image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-1.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "marilyn",
+    },
+     {
+      title: "Dédale",
+      image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-2.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "2011",
+      lien: "marilyn",
+    },
+     {
+      title: "Port d'attaches",
+      image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-3.jpg`,
+      slug:"",
+      description: "technique mixte 50x50 cm",
+      year: "2024",
+      lien: "marilyn",
+    },
+
+ {
+      title: "Jeu de pistes",
+      image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-4.jpg`,
+     slug:"",
+      description: "technique mixte 100x100 cm",
+      year: "1979",
+      lien: "marilyn",
+    },
+     {
+      title: "Composition Jaune",
+      image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-5.jpg`,
+     slug:"",
+      description: "technique mixte 40x70 cm",
+      year: "2002",
+      lien: "marilyn",
+    },
+     {
+      title: "Imagine",
+      image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-6.jpg`,
+     slug:"",
+      description: "technique mixte 30x40 cm",
+      year: "2022",
+      lien: "marilyn",
+    },
+     {
+      title: "Hyménoptère",
+      image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-7.jpg`,
+      slug:"",
+      description: "technique mixte 40x44 cm",
+      year: "2023",
+      lien: "marilyn",
+    },
+    {
+      title: "Rotor hydrique",
+      image: `/serigraphies/Marilyn/renaud-delorme-artiste-Marilyn-8.jpg`,
+      slug:"",
+      description: "technique mixte 30x38 cm",
+      year: "2021",
+      lien: "Marilyn",
+    },
+     {
+      title: "Astronef",
+      image: `/serigraphies/Marilyn/renaud-delorme-artiste-Marilyn-9.jpg`,
+      slug:"",
+      description: "technique mixte 35x50 cm",
+      year: "2023",
+      lien: "Marilyn",
+    },
+ 
+ {
+      title: "Pico Pico",
+      image: `/serigraphies/Marilyn/renaud-delorme-artiste-Marilyn-10.jpg`,
+      slug:"",
+      description: "technique mixte 35x55 cm",
+      year: "2023",
+      lien: "Marilyn",
+    },
+   
+  ]
 }

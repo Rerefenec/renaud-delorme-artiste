@@ -34,7 +34,7 @@ const galleryItems: GalleryItem[] = [
   },
  {
     title: "Sérigraphies",
-    image: "/serigraphies/la-collectionneuse-d-art-mini/collectionneuse 1.webp",
+    image: "/serigraphies/la-collectionneuse-d-art-mini/renaud-delorme-artiste-collectionneuse-1.webp",
     description: "La structure du fragment...",
     lien: "/serigraphies",
   },

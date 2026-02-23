@@ -36,7 +36,7 @@ const galleryItems: GalleryItem[] = [
   },
     {
     title: "la collectionneuse d'art",
-    image: "/serigraphies/la-collectionneuse-d-art-mini/collectionneuse 1.webp",
+    image: "/serigraphies/la-collectionneuse-d-art-mini/renaud-delorme-artiste-collectionneuse-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/collectionneuse",
   },
@@ -54,7 +54,7 @@ const galleryItems: GalleryItem[] = [
   },
        {
     title: "Marilyn Monroe",
-    image: "/serigraphies/marilyn-mini/marilyn 3.webp",
+    image: "/serigraphies/marilyn-mini/renaud-delorme-artiste-marilyn-3.webp",
     description: "La fusion conceptuelle...",
     lien: "/marilyn",
   },
