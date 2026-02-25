@@ -48,7 +48,7 @@ const galleryItems: GalleryItem[] = [
   },
        {
     title: "Frida Pinto",
-    image: "/serigraphies/pinto-mini/pinto 1.webp",
+    image: "/serigraphies/pinto-mini/renaud-delorme-artiste-pinto-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/pinto",
   },

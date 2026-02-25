@@ -17,6 +17,8 @@ const KEY_TO_FOLDER_MAP: Record<string, string> = {
   'pochoirs': "pochoirs",
   'collectionneuse': "serigraphies/la-collectionneuse-d-art",
   'marilyn': "serigraphies/marilyn",
+  'pinto':"serigraphies/pinto",
+  'romy':"serigraphies/romy",
   'hotesse': "serigraphies/hotesse-de-l-air",
 };
 

@@ -15,6 +15,8 @@ export async function GET() {
     "/hotesse",
     "/collectionneuse",
     "/marilyn",
+    "/pinto",
+    "/romy",
     "/clint"
   ];
 

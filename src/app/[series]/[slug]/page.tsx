@@ -2,10 +2,10 @@ import { seriesData } from "@/app/data/seriesData";
 import { notFound } from "next/navigation";
 
 interface Props {
-  params: {
+  params: Promise<{
     series: string;
     slug: string;
-  };
+  }>;
 }
 
 /* ============================= */
@@ -32,11 +32,12 @@ export async function generateStaticParams() {
 /* ============================= */
 
 export async function generateMetadata({ params }: Props) {
-  const works = seriesData[params.series];
+  const { series, slug } = await params;
 
+  const works = seriesData[series];
   if (!works) return {};
 
-  const work = works.find((w) => w.slug === params.slug);
+  const work = works.find((w) => w.slug === slug);
   if (!work) return {};
 
   return {
@@ -54,12 +55,13 @@ export async function generateMetadata({ params }: Props) {
 /* 3️⃣ Page œuvre                */
 /* ============================= */
 
-export default function WorkPage({ params }: Props) {
-  const works = seriesData[params.series];
+export default async function WorkPage({ params }: Props) {
+  const { series, slug } = await params;
 
+  const works = seriesData[series];
   if (!works) return notFound();
 
-  const work = works.find((w) => w.slug === params.slug);
+  const work = works.find((w) => w.slug === slug);
   if (!work) return notFound();
 
   return (
@@ -73,18 +75,10 @@ export default function WorkPage({ params }: Props) {
         <img
           src={work.image}
           alt={`${work.title}, ${work.year}, œuvre de Pierre Arnould`}
+          width="1200"
+          height="1200"
           className="w-full object-contain mb-8"
         />
-
-        <section className="space-y-4 text-lg text-gray-300">
-          <p><strong>Année :</strong> {work.year}</p>
-          <p><strong>Description :</strong> {work.description}</p>
-          <p>
-            Œuvre de la série <strong>{params.series}</strong> réalisée par
-            Pierre Arnould, artiste plasticien explorant relief, matière
-            et tension visuelle.
-          </p>
-        </section>
 
       </article>
     </main>

@@ -8,14 +8,14 @@ import { Work, seriesData } from "@/app/data/seriesData";
 import { usePathname } from "next/navigation";
 
 
-const SERIES_KEY = "marilyn";
+const SERIES_KEY = "romy";
 
 const works: Work[] = seriesData[SERIES_KEY].map((work, i) => ({
     ...work,
-    image: `/serigraphies/marilyn-mini/renaud-delorme-artiste-marilyn-${i + 1}.webp`,
+    image: `/serigraphies/romy-mini/renaud-delorme-artiste-romy-${i + 1}.webp`,
 }));
 
-export default function MarilynClient() {
+export default function RomyClient() {
   const pathname = usePathname();
 
  const [failedImages, setFailedImages] = useState<number[]>([]);
@@ -71,7 +71,7 @@ export default function MarilynClient() {
         <div className="bg-black min-h-screen">
             <Hero />
    
-   {pathname === "/marilyn" && (
+   {pathname === "/romy" && (
   <div
     className="
       relative 
