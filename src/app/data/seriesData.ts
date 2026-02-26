@@ -9,7 +9,7 @@ export interface Work {
 
 export const seriesData: Record<string, Work[]> = {
 
-    // =======================================================
+  // =======================================================
   // pochoirs : 6 images
   // =======================================================
   pochoirs: [
@@ -17,7 +17,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: " detail",
       image: `/pochoirs/renaud-delorme-artiste-rihana-1.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "pochoirs",
@@ -25,7 +25,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Entrée du Labyrinthe",
       image: `/pochoirs/renaud-delorme-artiste-rihana-2.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief, résine/enduit, peintures métalliques sur bois 60x80 cm",
       year: "1982",
       lien: "pochoirs",
@@ -33,12 +33,12 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Guerrier Géométrique",
       image: `/pochoirs/renaud-delorme-artiste-rihana-3.jpg`,
-      slug:"",
+      slug: "",
       description: "Technique mixte en relief, finition martelée 50x75 cm",
       year: "1985",
       lien: "pochoirs",
     },
-   
+
   ],
   // =======================================================
   // Vanitées : 6 images
@@ -48,7 +48,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: " detail",
       image: `/vanitee/vanitee-1.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "vanitees",
@@ -56,7 +56,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Entrée du Labyrinthe",
       image: `/vanitee/vanitee-2.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief, résine/enduit, peintures métalliques sur bois 60x80 cm",
       year: "1982",
       lien: "vanitees",
@@ -64,7 +64,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Guerrier Géométrique",
       image: `/vanitee/vanitee-3.jpg`,
-      slug:"",
+      slug: "",
       description: "Technique mixte en relief, finition martelée 50x75 cm",
       year: "1985",
       lien: "vanitees",
@@ -72,7 +72,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "L'Archétype",
       image: `/vanitee/vanitee-4.jpg`,
-      slug:"",
+      slug: "",
       description: "Terre texturée, pigments et feuilles de métal",
       year: "1986",
       lien: "vanitees",
@@ -80,7 +80,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "L'Éclatement Central",
       image: `/vanitee/vanitee-5.jpg`,
-      slug:"",
+      slug: "",
       description: "Technique mixte sur panneau 80x60 cm",
       year: "1986",
       lien: "vanitees",
@@ -88,7 +88,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Le Dédale Tribal",
       image: `/vanitee/vanitee-6.jpg`,
-      slug:"",
+      slug: "",
       description: "Pigments or et bleu nuit sur bois 90x65 cm",
       year: "1986",
       lien: "vanitees",
@@ -96,7 +96,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Formes de la Métamorphose",
       image: `/vanitee/vanitee-7.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau 50x75 cm",
       year: "1986",
       lien: "vanitees",
@@ -112,7 +112,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Paléo-Bolide",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-1.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2003",
       lien: "bb",
@@ -120,7 +120,7 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-2.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
@@ -128,79 +128,79 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-3.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-   {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-4.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-5.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-6.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-7.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-8.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-9.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-10.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-11.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
     },
-     {
+    {
       title: "Engrenage Galactique",
       image: `/serigraphies/bb/renaud-delorme-artiste-bb-12.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte Ø 90 cm",
       year: "2004",
       lien: "bb",
@@ -221,59 +221,59 @@ export const seriesData: Record<string, Work[]> = {
   //   lien: "baroques",
   // })),*
   clint: [
- {
+    {
       title: "Arbre à palabres",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-1.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "1979",
       lien: "clint",
     },
-     {
+    {
       title: "Dédale",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-2.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "2011",
       lien: "clint",
     },
-     {
+    {
       title: "Port d'attaches",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-3.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2024",
       lien: "clint",
     },
 
- {
+    {
       title: "Jeu de pistes",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-4.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 100x100 cm",
       year: "1979",
       lien: "clint",
     },
-     {
+    {
       title: "Composition Jaune",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-5.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 40x70 cm",
       year: "2002",
       lien: "clint",
     },
-     {
+    {
       title: "Imagine",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-6.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 30x40 cm",
       year: "2022",
       lien: "clint",
     },
-     {
+    {
       title: "Hyménoptère",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-7.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 40x44 cm",
       year: "2023",
       lien: "clint",
@@ -281,45 +281,45 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Rotor hydrique",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-8.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 30x38 cm",
       year: "2021",
       lien: "clint",
     },
-     {
+    {
       title: "Astronef",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-9.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 35x50 cm",
       year: "2023",
       lien: "clint",
     },
- 
- {
+
+    {
       title: "Pico Pico",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-10.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 35x55 cm",
       year: "2023",
       lien: "clint",
     },
-     {
+    {
       title: "Récup' dorée",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-11.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x80 cm",
       year: "1998",
       lien: "clint",
     },
-     {
+    {
       title: "Patterne beige",
       image: `/serigraphies/clint/renaud-delorme-artiste-clint-12.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 50x80 cm",
       year: "1999",
       lien: "clint",
     },
-     
+
   ],
 
   // =======================================================
@@ -338,90 +338,90 @@ export const seriesData: Record<string, Work[]> = {
   //   lien: "geometrique",
   // })),
   hotesse: [
- {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-1.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-     {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-2.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-  {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-3.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-     {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-4.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-     {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-5.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-         {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-6.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-         {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-7.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-             {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-8.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-             {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-9.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-             {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-10.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
     },
-             {
+    {
       title: "Fraise vanille",
       image: `/serigraphies/hotesse-de-l-air/renaud-delorme-artiste-hotesse-11.jpg`,
-    slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2025",
       lien: "hotesse",
@@ -433,151 +433,151 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-1.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-      {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-2.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-        {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-3.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-        {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-4.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-        {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-5.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-        {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-6.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-       {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-7.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-       {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-8.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-        {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-9.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-        {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-10.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
-        {
+    {
       title: " detail",
       image: `/serigraphies/la-collectionneuse-d-art/renaud-delorme-artiste-collectionneuse-11.jpg`,
-      slug:"",
+      slug: "",
       description: "Relief pigmenté sur panneau, patine 50x75 cm",
       year: "1980",
       lien: "collectionneuse",
     },
   ],
 
-    // =======================================================
+  // =======================================================
   //romy : 10 œuvres
   // =======================================================
 
   marilyn: [
- {
+    {
       title: "Arbre à palabres",
       image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-1.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "1979",
       lien: "marilyn",
     },
-     {
+    {
       title: "Dédale",
       image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-2.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "2011",
       lien: "marilyn",
     },
-     {
+    {
       title: "Port d'attaches",
       image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-3.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2024",
       lien: "marilyn",
     },
 
- {
+    {
       title: "Jeu de pistes",
       image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-4.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 100x100 cm",
       year: "1979",
       lien: "marilyn",
     },
-     {
+    {
       title: "Composition Jaune",
       image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-5.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 40x70 cm",
       year: "2002",
       lien: "marilyn",
     },
-     {
+    {
       title: "Imagine",
       image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-6.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 30x40 cm",
       year: "2022",
       lien: "marilyn",
     },
-     {
+    {
       title: "Hyménoptère",
       image: `/serigraphies/marilyn/renaud-delorme-artiste-marilyn-7.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 40x44 cm",
       year: "2023",
       lien: "marilyn",
@@ -585,127 +585,127 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Rotor hydrique",
       image: `/serigraphies/Marilyn/renaud-delorme-artiste-Marilyn-8.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 30x38 cm",
       year: "2021",
       lien: "Marilyn",
     },
-     {
+    {
       title: "Astronef",
       image: `/serigraphies/Marilyn/renaud-delorme-artiste-Marilyn-9.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 35x50 cm",
       year: "2023",
       lien: "Marilyn",
     },
- 
- {
+
+    {
       title: "Pico Pico",
       image: `/serigraphies/Marilyn/renaud-delorme-artiste-Marilyn-10.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 35x55 cm",
       year: "2023",
       lien: "Marilyn",
     },
-   ],
+  ],
 
-    // =======================================================
+  // =======================================================
   // Pinto : 4 œuvres
   // =======================================================
 
   pinto: [
- {
+    {
       title: "Arbre à palabres",
       image: `/serigraphies/pinto/renaud-delorme-artiste-pinto-1.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "1979",
       lien: "pinto",
     },
-     {
+    {
       title: "Dédale",
       image: `/serigraphies/pinto/renaud-delorme-artiste-pinto-2.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "2011",
       lien: "pinto",
     },
-     {
+    {
       title: "Port d'attaches",
       image: `/serigraphies/pinto/renaud-delorme-artiste-pinto-3.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2024",
       lien: "pinto",
     },
 
- {
+    {
       title: "Jeu de pistes",
       image: `/serigraphies/pinto/renaud-delorme-artiste-pinto-4.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 100x100 cm",
       year: "1979",
       lien: "pinto",
     },
   ],
-    // =======================================================
+  // =======================================================
   //Romy : 10 œuvres
   // =======================================================
 
   romy: [
- {
+    {
       title: "Arbre à palabres",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-1.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "1979",
       lien: "romy",
     },
-     {
+    {
       title: "Dédale",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-2.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 20x30 cm",
       year: "2011",
       lien: "romy",
     },
-     {
+    {
       title: "Port d'attaches",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-3.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 50x50 cm",
       year: "2024",
       lien: "romy",
     },
 
- {
+    {
       title: "Jeu de pistes",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-4.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 100x100 cm",
       year: "1979",
       lien: "romy",
     },
-     {
+    {
       title: "Composition Jaune",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-5.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 40x70 cm",
       year: "2002",
       lien: "romy",
     },
-     {
+    {
       title: "Imagine",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-6.jpg`,
-     slug:"",
+      slug: "",
       description: "technique mixte 30x40 cm",
       year: "2022",
       lien: "romy",
     },
-     {
+    {
       title: "Hyménoptère",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-7.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 40x44 cm",
       year: "2023",
       lien: "romy",
@@ -713,28 +713,156 @@ export const seriesData: Record<string, Work[]> = {
     {
       title: "Rotor hydrique",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-8.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 30x38 cm",
       year: "2021",
       lien: "romy",
     },
-     {
+    {
       title: "Astronef",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-9.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 35x50 cm",
       year: "2023",
       lien: "romy",
     },
- 
- {
+
+    {
       title: "Pico Pico",
       image: `/serigraphies/romy/renaud-delorme-artiste-romy-10.jpg`,
-      slug:"",
+      slug: "",
       description: "technique mixte 35x55 cm",
       year: "2023",
       lien: "romy",
     },
-   ],
-    
+  ],
+
+  // =======================================================
+  //cartes mères  : 15 œuvres
+  // =======================================================
+
+  cartes: [
+    {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-1.jpg`,
+      slug: "",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+
+    {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-2.jpg`,
+      slug: "",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+    {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-3.jpg`,
+      slug: "",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-4.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-5.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-6.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-7.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-8.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-9.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-10.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-11.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-12.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-13.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-14.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+     {
+      title: "Arbre à palabres",
+      image: `/cartes-mere/renaud-delorme-artiste-cartes-meres-15.jpg`,
+      slug:"",
+      description: "technique mixte 20x30 cm",
+      year: "1979",
+      lien: "cartes",
+    },
+  ],
+
 }

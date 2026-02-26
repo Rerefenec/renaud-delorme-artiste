@@ -19,6 +19,7 @@ const KEY_TO_FOLDER_MAP: Record<string, string> = {
   'marilyn': "serigraphies/marilyn",
   'pinto':"serigraphies/pinto",
   'romy':"serigraphies/romy",
+  'cartes':"cartes-mere",
   'hotesse': "serigraphies/hotesse-de-l-air",
 };
 

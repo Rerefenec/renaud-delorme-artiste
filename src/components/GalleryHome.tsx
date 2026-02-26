@@ -28,9 +28,9 @@ const galleryItems: GalleryItem[] = [
   },
   {
     title: "Cartes mères",
-    image: "/les-cartes-meres/30 BB de face.JPG",
+    image: "/cartes-mere-mini/renaud-delorme-artiste-cartes-meres-7.webp",
     description: "La structure du fragment...",
-    lien: "/cloisonnes+geometriques",
+    lien: "/cartes",
   },
  {
     title: "Sérigraphies",
