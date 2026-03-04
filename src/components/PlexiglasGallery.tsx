@@ -14,45 +14,36 @@ export interface GalleryItem {
 }
 
 const galleryItems: GalleryItem[] = [
+ 
+
   {
-    title: "Pochoirs",
-    image: "/pochoirs-mini/renaud-delorme-artiste-rihana-1.webp",
+    title: "anonymes",
+    image: "/plexiglas/anonymes-mini/renaud-delorme-artiste-anonyme-1.webp",
+    description: "La structure du fragment...",
+    lien: "/anonymes",
+  },
+   {
+    title: "célébritées",
+    image: "/plexiglas/celebrity-mini/renaud-delorme-artiste-celebrity-1.webp",
     description: "La fusion conceptuelle...",
-    lien: "/pochoirs",
+    lien: "/celebrity",
   },
-  {
-    title: "Plexiglas",
-    image: "/plexiglas/anonymes-mini/renaud-delorme-artiste-anonyme-2.webp",
-    description: "Une exploration circulaire...",
-    lien: "/plexiglas",
+     {
+    title: "Hommes",
+    image: "/plexiglas/hommes-mini/renaud-delorme-artiste-homme-1.webp",
+    description: "La fusion conceptuelle...",
+    lien: "/hommes",
   },
-  {
-    title: "Cartes mères",
-    image: "/cartes-mere-mini/renaud-delorme-artiste-cartes-meres-7.webp",
-    description: "La structure du fragment...",
-    lien: "/cartes",
+    {
+    title: "nues",
+    image: "/plexiglas/nues-mini/renaud-delorme-artiste-nue-1.webp",
+    description: "La fusion conceptuelle...",
+    lien: "/nues",
   },
- {
-    title: "Sérigraphies",
-    image: "/serigraphies/la-collectionneuse-d-art-mini/renaud-delorme-artiste-collectionneuse-1.webp",
-    description: "La structure du fragment...",
-    lien: "/serigraphies",
-  },
-  //  {
-  //   title: "Sérigraphies",
-  //   image: "/sérigraphies/la-collectionneuse-d'art/collectionneuse 1.jpg",
-  //   description: "La structure du fragment...",
-  //   lien: "/sérigraphies",
-  // },
-  {
-    title: "Vanitées",
-    image: "/vanitee-mini/vanitee-mini-5.webp",
-    description: "La structure du fragment...",
-    lien: "/vanitees",
-  },
+  
 ];
 
-export default function GalleryHome() {
+export default function UnderGallery() {
   const [showArrow, setShowArrow] = useState(true);
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -92,18 +83,16 @@ export default function GalleryHome() {
       </AnimatePresence>
 
       {/* Galerie */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-white items-center">
+     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-32 text-white items-center justify-center w-fit mx-auto">
+
         {galleryItems.map((item) => {
           let orderClass = "";
           let colSpanClass = "";
 
-          if (item.title === "clint") {
-            orderClass = "order-1 md:order-2";
-            colSpanClass = "col-span-1 md:col-span-2";
-          } else if (item.title === "Cloisonnés et Géométriques") {
+        if (item.title === "cloisonnes") {
             orderClass = "order-2 md:order-1";
             colSpanClass = "col-span-1 md:col-span-1";
-          } else if (item.title === "Baroques") {
+          } else if (item.title === "Geometriques") {
             orderClass = "order-3 md:order-3";
             colSpanClass = "col-span-1 md:col-span-1";
           }
@@ -127,19 +116,19 @@ export default function GalleryHome() {
                   alt={item.title}
                   width={400}
                   height={400}
-                  className={`object-contain rounded-xl w-full ${imageHeight} transition-transform duration-300 hover:scale-105`}
+                  className={`object-contain  w-full ${imageHeight} transition-transform duration-300 hover:scale-105`}
                 />
 
                 {/* Titre cliquable */}
-              <h3 className="mt-3 text-center text-base sm:text-lg md:text-xl lg:text-2xl font-semibold hover:underline">
-  {item.title}
-</h3>
-
+                <h3 className="mt-2 sm:mt-4 text-base sm:text-lg md:text-xl lg:text-2xl flex justify-center font-semibold hover:underline">
+                  {item.title}
+                </h3>
               </motion.div>
             </Link>
           );
         })}
       </div>
+      {/* avant version pro */}
     </section>
   );
 }

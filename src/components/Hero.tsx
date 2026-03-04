@@ -12,9 +12,27 @@ export default function Hero() {
 
 if (pathname === "/clint") {
   heroImage = "/details/pierre-arnould-artist-tondo-detail-01.jpg";
-} else if (pathname === "/geometrique") {
+} else if (pathname === "/bb") {
   heroImage = "/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-16.jpg";
-} else if (pathname === "/cloisonnes") {
+} else if (pathname === "/cartes") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/collectionneuse") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/hotesse") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/marilyn") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/pinto") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/plexiglas") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/pochoirs") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/romy") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/serigraphies") {
+  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  } else if (pathname === "/vanitees") {
   heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
 } else if (pathname === "/apropos") {
   heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-10.jpg"; 
@@ -31,16 +49,30 @@ if (pathname === "/clint") {
   let textHeader;
   if (pathname === "/clint") {
     textHeader = <>clint</>;
-  } else if (pathname === "/baroques") {
-    textHeader = <>Baroques</>;
-  } else if (pathname === "/cloisonnes") {
-    textHeader = <>Cloisonnés</>;
-  } else if (pathname === "/cloisonnes+geometriques") {
-    textHeader = <>Cloisonnés et Géométriques</>;
+  } else if (pathname === "/bb") {
+    textHeader = <>Brigite Bardot</>;
+  } else if (pathname === "/cartes") {
+    textHeader = <>Cartes mères</>;
+  } else if (pathname === "/collectionneuse") {
+    textHeader = <>La collectionneuse d'art</>;
   } else if (pathname === "/collections") {
     textHeader = <>Collections</>; 
-    } else if (pathname === "/geometrique") {
-    textHeader = <>Géométriques</>; } 
+    } else if (pathname === "/marilyn") {
+    textHeader = <>Marilyn</>;
+    } else if (pathname === "/pinto") {
+    textHeader = <>Frida Pinto</>;
+    } else if (pathname === "/Plexiglas") {
+    textHeader = <>Plexiglas</>;
+    } else if (pathname === "/pochoirs") {
+    textHeader = <>Pochoirs</>;
+    } else if (pathname === "/romy") {
+    textHeader = <>Romy Schneider</>;
+    } else if (pathname === "/serigraphies") {
+    textHeader = <>Sérigraphies</>;
+    } else if (pathname === "/vanitees") {
+    textHeader = <>Vanitées</>;
+    } else if (pathname === "/hotesse") {
+    textHeader = <>Hotesse de l'air</>; } 
     else if (pathname === "/apropos") {
     textHeader = <>À propos</>;  
   } else if (pathname === "/contact") {
