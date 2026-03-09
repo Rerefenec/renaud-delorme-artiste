@@ -92,7 +92,7 @@ export default function GalleryHome() {
       </AnimatePresence>
 
       {/* Galerie */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-white items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-black items-center">
         {galleryItems.map((item) => {
           let orderClass = "";
           let colSpanClass = "";

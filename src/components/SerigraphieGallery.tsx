@@ -42,7 +42,7 @@ const galleryItems: GalleryItem[] = [
   },
      {
     title: "Romy Schneider",
-    image: "/serigraphies/romy-mini/romy 1.webp",
+    image: "/serigraphies/romy-mini/renaud-delorme-artiste-romy-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/romy",
   },

@@ -23,7 +23,7 @@ const galleryItems: GalleryItem[] = [
     lien: "/anonymes",
   },
    {
-    title: "célébritées",
+    title: "célébrités",
     image: "/plexiglas/celebrity-mini/renaud-delorme-artiste-celebrity-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/celebrity",
@@ -35,7 +35,7 @@ const galleryItems: GalleryItem[] = [
     lien: "/hommes",
   },
     {
-    title: "nues",
+    title: "nus",
     image: "/plexiglas/nues-mini/renaud-delorme-artiste-nue-1.webp",
     description: "La fusion conceptuelle...",
     lien: "/nues",
