@@ -13,7 +13,7 @@ export default function HomePage() {
       : <Hero />
       </div>
       {/* Fondo de la galería en blanco para cubrir progresivamente el Hero */}
-      <div className="relative pt-26 pb-1 bg-white ">
+      <div className="relative pt-26 pb-1 bg-black ">
         <GalleryHome />
       </div>
     </main>

@@ -8,18 +8,18 @@ export default function Hero() {
   const pathname = usePathname();
 
   // 🔹 Image selon la page
- let heroImage: string | null = "/details/bg.jpg";
+ let heroImage: string | null = "/details/detail-flat-stephanie.jpg";
 
 if (pathname === "/clint") {
-  heroImage = "/details/pierre-arnould-artist-tondo-detail-01.jpg";
+  heroImage = "/details/detail-eastwood.jpg";
 } else if (pathname === "/bb") {
-  heroImage = "/2021-2025-Geometriques/pierre-arnould-artiste-geometrique-16.jpg";
+  heroImage = "/details/detail-bb.jpg";
 } else if (pathname === "/cartes") {
   heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
   } else if (pathname === "/collectionneuse") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-collectionneuse.jpg";
   } else if (pathname === "/hotesse") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-hotesse.jpg";
   } else if (pathname === "/marilyn") {
   heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
   } else if (pathname === "/pinto") {
@@ -27,11 +27,11 @@ if (pathname === "/clint") {
   } else if (pathname === "/plexiglas") {
   heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
   } else if (pathname === "/pochoirs") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-rihanna.jpg";
   } else if (pathname === "/romy") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-romy.jpg";
   } else if (pathname === "/serigraphies") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-pinto.jpg";
   } else if (pathname === "/vanitees") {
   heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
 } else if (pathname === "/apropos") {
