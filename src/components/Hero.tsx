@@ -21,11 +21,13 @@ if (pathname === "/clint") {
   } else if (pathname === "/hotesse") {
   heroImage = "/details/detail-hotesse.jpg";
   } else if (pathname === "/marilyn") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-marilyn.jpg";
   } else if (pathname === "/pinto") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-frida.jpg";
   } else if (pathname === "/plexiglas") {
-  heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
+  heroImage = "/details/detail-scarlet.jpg";
+  } else if (pathname === "/anonymes") {
+  heroImage = "/details/detail-anonyme.jpg";
   } else if (pathname === "/pochoirs") {
   heroImage = "/details/detail-rihanna.jpg";
   } else if (pathname === "/romy") {
