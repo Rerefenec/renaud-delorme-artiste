@@ -1218,10 +1218,10 @@ export const seriesData: Record<string, Work[]> = {
       lien: "2006",
     },
         {
-      title: "la belle d'exmouth",
+      title: "la fille d'exmouth",
       image: `/plexiglas/anonymes/renaud-delorme-artiste-anonyme-26.jpg`,
       slug:"",
-      description: "technique mixte 20x30 cm",
+      description: "peinture sur plexiglas et collages 102x155cm",
       year: "2013",
       lien: "anonymes",
     },
