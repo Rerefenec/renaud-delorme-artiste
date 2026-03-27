@@ -71,12 +71,12 @@ export default function PochoirsClient() {
         <div className="bg-black min-h-screen">
             <Hero />
    
-   {pathname === "/clint" && (
+   {pathname === "/pochoirs" && (
   <div
     className="
       relative 
       -mt-10 sm:-mt-14 md:-mt-15   /* remonte sur le Hero */
-      bg-black/60 
+       
       backdrop-blur-sm 
       text-gray-200 
       text-justify
@@ -86,11 +86,8 @@ export default function PochoirsClient() {
       shadow-lg
     "
   >
-    Une exploration circulaire. Dans cette série, je me concentre sur la forme du 
-    tondo, un cercle parfait qui invite à la contemplation. J&apos;expérimente avec des 
-    motifs répétitifs et des couleurs vives, créant des œuvres qui semblent vibrer 
-    et se déplacer. C&apos;est un dialogue entre la forme et la couleur, une invitation 
-    à voir au-delà du cadre.
+    Pour ces tableaux, je conçois une série de pochoirs propres à chaque image. À partir de ceux-ci, je réalise des peintures à l’acrylique de petit format (30 × 30 cm), sur des supports variés : pochettes de disques, fragments d’affiches publicitaires ou papiers imprimés.
+Chaque œuvre se construit par superposition — une vingtaine de pochoirs — qui, assemblés, révèlent un portrait
   </div>
 )}
 

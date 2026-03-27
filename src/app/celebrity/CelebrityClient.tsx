@@ -71,28 +71,7 @@ export default function CelebrityClient() {
         <div className="bg-black min-h-screen">
             <Hero />
    
-   {pathname === "/celebrity" && (
-  <div
-    className="
-      relative 
-      -mt-10 sm:-mt-14 md:-mt-15   /* remonte sur le Hero */
-      bg-black/60 
-      backdrop-blur-sm 
-      text-gray-200 
-      text-justify
-      px-4 py-6 
-      max-w-6xl mx-auto 
-      rounded-xl 
-      shadow-lg
-    "
-  >
-    Une exploration circulaire. Dans cette série, je me concentre sur la forme du 
-    tondo, un cercle parfait qui invite à la contemplation. J&apos;expérimente avec des 
-    motifs répétitifs et des couleurs vives, créant des œuvres qui semblent vibrer 
-    et se déplacer. C&apos;est un dialogue entre la forme et la couleur, une invitation 
-    à voir au-delà du cadre.
-  </div>
-)}
+ 
 
 
 

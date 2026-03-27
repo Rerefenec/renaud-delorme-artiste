@@ -83,6 +83,8 @@ if (pathname === "/clint") {
     textHeader = <>Les Nus</>;
      } else if (pathname === "/celebrity") {
     textHeader = <>célébrités</>;
+    } else if (pathname === "/hommes") {
+    textHeader = <>Les Hommes</>;
        } else if (pathname === "/anonymes") {
     textHeader = <>Anonymes</>;
   }else {
