@@ -34,6 +34,10 @@ if (pathname === "/clint") {
   heroImage = "/details/detail-romy.jpg";
   } else if (pathname === "/serigraphies") {
   heroImage = "/details/detail-pinto.jpg";
+   } else if (pathname === "/teflons") {
+  heroImage = "/details/detail-teflon.jpg";
+   } else if (pathname === "/print3D") {
+  heroImage = "/details/detail-lara-croft.jpg";
   } else if (pathname === "/vanitees") {
   heroImage = "/details/pierre-arnould-artist-cloisonnes-detail-4.jpg";
 } else if (pathname === "/apropos") {
@@ -85,6 +89,10 @@ if (pathname === "/clint") {
     textHeader = <>célébrités</>;
     } else if (pathname === "/hommes") {
     textHeader = <>Les Hommes</>;
+    } else if (pathname === "/teflons") {
+    textHeader = <>Teflons</>;
+     } else if (pathname === "/print3D") {
+    textHeader = <>Impressions 3D</>;
        } else if (pathname === "/anonymes") {
     textHeader = <>Anonymes</>;
   }else {

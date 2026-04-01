@@ -39,12 +39,36 @@ const galleryItems: GalleryItem[] = [
     lien: "/serigraphies",
   },
   {
-    title: "Téflons",
+    title: "Teflons",
     image: "/teflons-mini/renaud-delorme-artiste-teflon-1.webp",
     description: "La structure du fragment...",
     lien: "/teflons",
   },
+   {
+    title: "Impressions 3D",
+    image: "/print3d-mini/renaud-delorme-artiste-angelina-1.webp",
+    description: "La structure du fragment...",
+    lien: "/print3D",
+  },
  
+  {
+    title: "Tirages en cire",
+    image: "/vaudou-mini/renaud-delorme-artiste-vaudou-4.webp",
+    description: "La structure du fragment...",
+    lien: "/cire",
+  },
+  {
+    title: "Tirages numériques",
+    image: "/multiples-mini/renaud-delorme-artiste-multiples-2.webp",
+    description: "La structure du fragment...",
+    lien: "/multiples",
+  },
+  {
+    title: "Anamorphose",
+    image: "/anamorphose-mini/renaud-delorme-anamorphose-9.webp",
+    description: "La structure du fragment...",
+    lien: "/anamorphose",
+  },
   {
     title: "Vanitées",
     image: "/vanitee-mini/vanitee-mini-5.webp",
@@ -98,16 +122,16 @@ export default function GalleryHome() {
           let orderClass = "";
           let colSpanClass = "";
 
-          if (item.title === "clint") {
-            orderClass = "order-1 md:order-2";
-            colSpanClass = "col-span-1 md:col-span-2";
-          } else if (item.title === "Cloisonnés et Géométriques") {
-            orderClass = "order-2 md:order-1";
-            colSpanClass = "col-span-1 md:col-span-1";
-          } else if (item.title === "Baroques") {
-            orderClass = "order-3 md:order-3";
-            colSpanClass = "col-span-1 md:col-span-1";
-          }
+          // if (item.title === "clint") {
+          //   orderClass = "order-1 md:order-2";
+          //   colSpanClass = "col-span-1 md:col-span-2";
+          // } else if (item.title === "Cloisonnés et Géométriques") {
+          //   orderClass = "order-2 md:order-1";
+          //   colSpanClass = "col-span-1 md:col-span-1";
+          // } else if (item.title === "Baroques") {
+          //   orderClass = "order-3 md:order-3";
+          //   colSpanClass = "col-span-1 md:col-span-1";
+          // }
 
           // Hauteur : égale sur mobile, clint plus grand dès md+
           const imageHeight =

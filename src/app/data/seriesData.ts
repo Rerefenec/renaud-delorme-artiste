@@ -1812,4 +1812,142 @@ export const seriesData: Record<string, Work[]> = {
     },
     
   ],
+        // =======================================================
+  //telons  : 9 œuvres
+  // =======================================================
+
+  teflons: [
+    {
+      title: "Clint Eastwood",
+      image: `/teflons/renaud-delorme-artiste-teflon-1.jpg`,
+      slug: "",
+      description: "Huile sur blocs de teflons assemblés 109x162cm",
+      year: "2015",
+      lien: "teflons",
+    },
+
+    {
+      title: "Scarlet Johanson",
+      image: `/teflons/renaud-delorme-artiste-teflon-2.jpg`,
+      slug: "",
+      description: "Huile sur blocs de teflons assemblés 108x153cm",
+      year: "2015",
+      lien: "hommes",
+    },
+    {
+      title: "Brigitte Bardot de trois quarts",
+      image: `/teflons/renaud-delorme-artiste-teflon-3.jpg`,
+      slug: "",
+      description: "Huile sur blocs de teflons assemblés 113x142cm",
+      year: "2015",
+      lien: "teflons",
+    },
+     {
+      title: "Brigitte Bardot Avedon",
+      image: `/teflons/renaud-delorme-artiste-teflon-4.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 123x145cm",
+      year: "2015",
+      lien: "teflons",
+    },
+     {
+      title: "John Travolta",
+      image: `/teflons/renaud-delorme-artiste-teflon-5.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 123x159cm",
+      year: "2015",
+      lien: "teflons",
+    },
+     {
+      title: "Brigitte Bardot",
+      image: `/teflons/renaud-delorme-artiste-teflon-6.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 109x162cm",
+      year: "2011",
+      lien: "teflons",
+    },
+     {
+      title: "La naissance de Vénus",
+      image: `/teflons/renaud-delorme-artiste-teflon-7.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 153x123cm",
+      year: "2015",
+      lien: "teflons",
+    },
+     {
+      title: "Stephanie Seymour",
+      image: `/teflons/renaud-delorme-artiste-teflon-8.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 100x154cm",
+      year: "2015",
+      lien: "teflons",
+    },
+     {
+      title: "Vénus et Cupidon",
+      image: `/teflons/renaud-delorme-artiste-teflon-9.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 183x123cm",
+      year: "2015",
+      lien: "teflons",
+    },
+    
+  ],
+        // =======================================================
+  //3Dprint  : 6 œuvres
+  // =======================================================
+
+  print3D: [
+    {
+      title: "Clint Eastwood",
+      image: `/print3D/renaud-delorme-artiste-angelina-1.jpg`,
+      slug: "",
+      description: "Huile sur blocs de teflons assemblés 109x162cm",
+      year: "2015",
+      lien: "print3D",
+    },
+
+    {
+      title: "Scarlet Johanson",
+      image: `/print3D/renaud-delorme-artiste-angelina-2.jpg`,
+      slug: "",
+      description: "Huile sur blocs de teflons assemblés 108x153cm",
+      year: "2015",
+      lien: "print3D",
+    },
+    {
+      title: "Brigitte Bardot de trois quarts",
+      image: `/print3D/renaud-delorme-artiste-angelina-3.jpg`,
+      slug: "",
+      description: "Huile sur blocs de teflons assemblés 113x142cm",
+      year: "2015",
+      lien: "print3D",
+    },
+     {
+      title: "Brigitte Bardot Avedon",
+      image: `/print3D/renaud-delorme-artiste-angelina-4.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 123x145cm",
+      year: "2015",
+      lien: "print3D",
+    },
+     {
+      title: "John Travolta",
+      image: `/print3D/renaud-delorme-artiste-angelina-5.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 123x159cm",
+      year: "2015",
+      lien: "print3D",
+    },
+     {
+      title: "Brigitte Bardot",
+      image: `/print3D/renaud-delorme-artiste-angelina-6.jpg`,
+      slug:"",
+      description: "Huile sur blocs de teflons assemblés 109x162cm",
+      year: "2011",
+      lien: "teflons",
+    },
+     
+    
+  ],
+
 }

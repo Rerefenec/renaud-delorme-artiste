@@ -17,10 +17,12 @@ export async function GET() {
     "/marilyn",
     "/hommes",
     "/nues",
+    "/teflons",
     "/celebrity",
     "/anonymes",
     "/pinto",
     "/romy",
+     "/print3D",
     "/cartes",
     "/clint"
   ];
