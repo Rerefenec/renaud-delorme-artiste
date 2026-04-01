@@ -38,12 +38,13 @@ const galleryItems: GalleryItem[] = [
     description: "La structure du fragment...",
     lien: "/serigraphies",
   },
-  //  {
-  //   title: "Sérigraphies",
-  //   image: "/sérigraphies/la-collectionneuse-d'art/collectionneuse 1.jpg",
-  //   description: "La structure du fragment...",
-  //   lien: "/sérigraphies",
-  // },
+  {
+    title: "Téflons",
+    image: "/teflons-mini/renaud-delorme-artiste-teflon-1.webp",
+    description: "La structure du fragment...",
+    lien: "/teflons",
+  },
+ 
   {
     title: "Vanitées",
     image: "/vanitee-mini/vanitee-mini-5.webp",
