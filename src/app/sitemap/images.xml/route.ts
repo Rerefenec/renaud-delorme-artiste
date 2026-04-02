@@ -24,6 +24,7 @@ const KEY_TO_FOLDER_MAP: Record<string, string> = {
   'pinto':"serigraphies/pinto",
   'romy':"serigraphies/romy",
   'print3D':"print3D",
+  'anamorphose':"anamorphose",
   'cartes':"cartes-mere",
   'teflon':"teflons",
   'hotesse': "serigraphies/hotesse-de-l-air",

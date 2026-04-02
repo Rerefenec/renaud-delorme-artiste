@@ -1946,8 +1946,84 @@ export const seriesData: Record<string, Work[]> = {
       year: "2011",
       lien: "teflons",
     },
-     
-    
   ],
+        // =======================================================
+  //anamorphose  : 9 œuvres
+  // =======================================================
 
+  anamorphose: [
+    {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-1.jpg`,
+      slug: "",
+      description: "Détail",
+      year: "2015",
+      lien: "anamorphose",
+    },
+
+    {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-2.jpg`,
+      slug: "",
+      description: "Détail",
+      year: "2015",
+      lien: "anamorphose",
+    },
+    {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-3.jpg`,
+      slug: "",
+      description: "Détail",
+      year: "2015",
+      lien: "anamorphose",
+    },
+     {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-4.jpg`,
+      slug:"",
+      description: "Détail",
+      year: "2015",
+      lien: "anamorphose",
+    },
+     {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-5.jpg`,
+      slug:"",
+      description: "Détail",
+      year: "2015",
+      lien: "anamorphose",
+    },
+     {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-6.jpg`,
+      slug:"",
+      description: "Détail",
+      year: "2011",
+      lien: "anamorphose",
+    },
+         {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-7.jpg`,
+      slug:"",
+      description: "Détail",
+      year: "2011",
+      lien: "anamorphose",
+    },
+         {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-8.jpg`,
+      slug:"",
+      description: "Détail",
+      year: "2011",
+      lien: "anamorphose",
+    },
+         {
+      title: "anamorphose",
+      image: `/anamorphose/renaud-delorme-anamorphose-9.jpg`,
+      slug:"",
+      description: "Détail",
+      year: "2011",
+      lien: "anamorphose",
+    },
+  ],
 }

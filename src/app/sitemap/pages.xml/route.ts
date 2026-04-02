@@ -22,6 +22,7 @@ export async function GET() {
     "/anonymes",
     "/pinto",
     "/romy",
+    "/anamorphose",
      "/print3D",
     "/cartes",
     "/clint"
